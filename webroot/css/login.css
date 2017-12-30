@@ -1,0 +1,64 @@
+/*LOGIN INICIO*/
+body{background:url('../img/background.jpg') center center}
+.col-md-4 h1{ color : #9f00a7; font-family: calibri, arial; font-weight: bold; font-size: 30px; position: relative; left: 30px;} 
+.header{background: white; width : 100%; }
+.header a{color: rgb(100,100,100); padding: 20px; position: relative; top : 30px;font-family: calibri, arial;font-weight: 900;  }
+#col-md-4{ height: 50px;}
+.header a:hover{ transition-duration: 0.3s; color: rgb(0,0,0); }
+
+/*container design*/
+.control-label{float: left;}
+/*.container .inner{width: 60%; margin: 100px auto; border : 1px solid none; background: rgba(55,55,55, 0.4); padding: 10px; -webkit-transform: skew(30deg,10deg);-moz-transform: skew(30deg,10deg); -o-transform: skew(30deg,10deg); transition-duration: 0.7s;}*/
+.container .inner{ background:rgba(5,5,5, 0.4);;width: 60%; margin: 100px auto;-webkit-transform:skew(0deg,0deg); -moz-transform:skew(0deg,0deg);-o-transform:skew(0deg,0deg);transition-duration: 0.7s;}
+.inner h1{color : rgb(200,200,200); font-family: calibri, arial; font-weight: bold; text-align: center; font-size: 40px}
+.inner h3{
+    color: #000;
+    font-size: 28px;
+    font-family: calibri;
+    text-align: center;
+    font-weight: bold;
+}
+.inner form label span{color: white;}
+.inner form lagend{color: white;}
+.inner .input{border: none; border-bottom: 1px solid white; color: #9f00a7; background: transparent; padding: 10px;}
+.inner .input:focus{box-shadow: none; border: 1px solid none;}
+.container hr{border-color: rgb(100,100,100);}
+.inner .button {
+    border-radius: 34px;
+    color: #FFF;
+    background: rgba(50,50,50, 0.8);
+    padding: 2px 30px;
+    border: 2px solid #61B2E5;
+    font-family: calibri;
+    margin: 10px auto;
+    font-weight: bold;
+}
+.inner .button:hover{background: #61B2E5; color: rgba(50,50,50, 0.9);}
+.inner a {
+    color: #000;
+    text-decoration: none;
+}
+
+img.logo-login{
+    max-height: 150px;
+    margin: 0 auto;
+}
+.form-control {
+    color: #FFF;
+    background-color: rgba(50,50,50, 0.8);
+    border: 2px solid #61B2E5;
+    border-radius: 34px;
+}
+.form-control:focus {
+    color: #FFF;
+    background-color: rgba(50,50,50, 0.8);
+    border: 4px solid rgba(102, 175, 233, .6);;
+    border-radius: 34px;
+}
+
+@media screen and (max-width: 768px) {
+    .container .inner {
+        width: 100%;
+    } 
+}
+/*LOGIN FIM*/

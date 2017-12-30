@@ -1,0 +1,78 @@
+.contraste{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/bb_freud.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.contraste .navbar-default,.contraste .pager li>a,.contraste .pager li>span,.contraste .btn-default{
+    background: #454C55;
+}
+
+.contraste .box{
+    background-color: transparent !important;
+}
+.contraste footer,.contraste footer-bottom{
+    background-color: #454C55 !important;
+}
+.contraste .test a{
+    background: #000 !important;
+}
+.contraste h2 strong,.contraste h2.brand-before small {
+    font-size: 150%;
+    color: #fff;
+}
+.contraste .test a p {
+    color: #000 !important;
+    background: #FFFE01;
+}
+.contraste .box h1,
+.contraste .box h2,
+.contraste .box h3,
+.contraste .box h4,
+.contraste .box strong,
+.contraste .box label, 
+.contraste .brand,
+.contraste .address-bar{
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+.contraste .container i.fa,.contraste .container span.fa{
+    color: #FFFE01 !important;
+}
+.contraste p{
+    color: #FFF !important;
+}
+
+.contraste h2{
+    color: #FFFE01 !important;
+}
+
+.contraste h2 span{
+    color: #FFF !important;
+}
+
+.contraste h3{
+    color: #FFFE01 !important;
+}
+
+.contraste h4{
+    color: #FFFE01 !important;
+}
+
+.contraste h4 span{
+    color: #FFF !important;
+}
+
+.contraste li{
+    color: #FFF !important;
+}
+
+.contraste a{
+    color: #FFFE01 !important;
+}

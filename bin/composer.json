@@ -1,0 +1,6 @@
+{
+    "require": {
+        "davidyell/proffer": "^0.6.1",
+        "alaxos/cakephp3-libs": "^1.0"
+    }
+}

@@ -1,0 +1,177 @@
+.box a {
+    color: #000;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+.box a:hover {
+    color: #001a35;
+    text-decoration: underline;
+}
+.box h1,.box h2,.box h3,.box h4,.box strong,.box label{
+    color: #000;
+    font-weight: bold;
+}
+.box strong{
+    font-size: 150%;
+}
+.box .fa-file-pdf-o{
+    font-size: 20px;
+    font-weight: bold;
+}
+.test {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.test a {
+    color: #fff;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: fontawesome;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    margin: 0 15px;
+    transition: all .5s;
+    z-index: 22222;
+}
+.test a i{
+    color: rgba(50,50,50, 0.8);
+    font-size: 22px;
+}
+.test a:hover {
+    background: #FBFF00;
+}
+.test a:hover p {
+    bottom: 35px;
+    visibility: visible;
+}
+.test a p {
+    color: #666;
+    position: absolute;
+    bottom: 0;
+    left: -25px;
+    right: -25px;
+    padding: 5px 7px;
+    z-index: 1;
+    font-size: 14px;
+    border-radius: 2px;
+    background: #fff;
+    visibility: hidden;
+    transition: all 0.5s cubic-bezier(0.6, -0.6, 0.2, 1.5);
+}
+.test a p:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position: absolute;
+    bottom: -5px;
+    left: 40px;
+}
+.box .text-center h1{
+    font-size: 200%
+}
+.box input.form-control, .box textArea.form-control{
+    background: #dcdcdc;
+    color: #000;
+}
+.accessibility{
+    position: absolute;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+@media screen and (max-width:990px) {
+    .accessibility{
+        position: relative;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+}
+.accessibility a.acessibilidade-icones,.accessibility i,.accessibility a.acessibilidade-icones:hover,.accessibility i:active{
+    color:#000 !important;
+    font-size: 20px !important;
+    text-decoration: none !important;
+    border: none;
+}
+.accessibility #a-normal{
+    font-size: 23px !important;
+    margin-top: -4px;
+    font-family: serif;
+    font-style: italic;
+    border: none;
+    font-weight: 600;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.accessibility a:hover,.accessibility i:hover,.accessibility a:active,.accessibility i:active{
+    color: #F5F6F9;
+    text-decoration: none !important;
+}
+
+.message_success{
+    background: #e9ec33;
+    padding: 30px;
+}
+.message_error{
+    background: #ff1900;
+    padding: 30px;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#owl-demo .item{
+    display: block;
+    padding: 30px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    padding: 5px 9px;
+}
+
+.owl-theme .owl-buttons i{
+    margin-top: 2px;
+}
+.owl-theme .owl-controls .owl-page span {
+    border: #fff 2px solid;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+    border: yellow 2px solid;
+}
+#owl-demo .item img{
+    max-height: 550px;
+    margin: 0 auto;
+    width: auto !important;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #666666;
+}
+
+.input-group-btn {
+    float: right;
+    margin-top: -34px;
+    margin-right: 36px;
+}
+.img-blog{
+    margin: 0 auto;
+}
